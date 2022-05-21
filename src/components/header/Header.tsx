@@ -15,6 +15,7 @@ export default function Header(props:HeaderProps) {
   
     const handleModal = () => {
       setOpenMenu(!openMenuModal);
+      console.log(openMenuModal)
     };
   
     useEffect(() => {

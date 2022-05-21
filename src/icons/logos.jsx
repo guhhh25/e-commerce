@@ -17,3 +17,16 @@ export const menu = (
 export const closeIcon = (
   <img src="https://img.icons8.com/office/30/000000/delete-sign.png"/>
 )
+
+
+export const deliveryMan = (
+  <img src="https://img.icons8.com/ios-filled/25/000000/truck.png"/>
+)
+
+export const google = (
+  <img src="https://img.icons8.com/color/50/000000/google-play.png"/>
+)
+
+export const apple = (
+  <img src="https://img.icons8.com/fluency/40/000000/apple-app-store.png"/>
+)
