@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  
 }
 
 .closeMenu {
@@ -104,6 +105,7 @@
 
 .logo {
     display: flex;
+    
 }
 
 
@@ -118,6 +120,8 @@
       position: absolute;
       display: flex;
       justify-content: flex-start;
+      
+      width: 100%;
     }
   
     .closeMenu {
@@ -126,7 +130,7 @@
   
     .headerContainerClose {
       position: relative;
-      right: 400px;
+      left: -300px;
       width: 250px;
       align-items: flex-start;
       flex-direction: column;
@@ -137,12 +141,13 @@
     }
   
     .headerContainerOpen {
-      position: relative;
-      right: 0px;
+      position: fixed;
+      top: 0px;
+      height: 100%;
+      left:0;
       width: 250px;
       align-items: flex-start;
       flex-direction: column;
-      height: 100vh;
       justify-content: space-around;
       background-color: #696969;
       transition: 0.5s;

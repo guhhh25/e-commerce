@@ -33,6 +33,7 @@
   text-align: center;
   width: 50%;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .google p {
@@ -54,6 +55,7 @@
   cursor: pointer;
   text-align: center;
   width: 50%;
+  cursor: pointer;
 }
 
 .apple p {
@@ -68,7 +70,7 @@
 }
 
 .hamburguerDiv {
-  height: 500px;
+ 
   position: relative;
   border: 15px solid #ffd700;
   border-radius: 100%;
@@ -148,7 +150,7 @@
   
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   font-size: 14px;
 }
 
