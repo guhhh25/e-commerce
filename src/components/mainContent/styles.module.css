@@ -7,6 +7,15 @@
   justify-content: space-around;
 }
 
+.ferraResponsiveLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  display: none;
+}
+
 .mainTitle {
   display: flex;
   flex-direction: column;
@@ -124,7 +133,11 @@
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 0px) and (max-width:700px) {
+
+.ferraResponsiveLogo{
+  display: flex;
+}
 
 .mainContent {
   height: 100ch;
@@ -161,4 +174,30 @@
   text-align: center;
 }
 
+}
+
+@media only screen and (min-width: 701px) and (max-width:1200px) {
+  .deliveryFast{
+    justify-content: space-around;
+    width: 40vh;
+  }
+  .apple{
+    justify-content: center;
+  }
+
+  .apple p{
+    display: none;
+  }
+
+  .google{
+    justify-content: center;
+  }
+
+  .google p {
+    display: none;
+  }
+
+  .cart{
+   width: 10%;
+  }
 }

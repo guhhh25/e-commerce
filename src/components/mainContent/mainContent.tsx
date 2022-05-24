@@ -4,11 +4,28 @@ import { deliveryMan } from "./../../icons/logos";
 import Image from "next/image";
 import { google } from "./../../icons/logos";
 import { apple } from "./../../icons/logos";
+import {logo} from './../../icons/logos'
+
+
+
 
 export default function MainContent() {
   return (
     <div className={styles.mainContent}>
       <div className={styles.mainTitle}>
+        <div className={styles.ferraResponsiveLogo}>
+          <p>{logo}</p>
+          <p style={{
+              color: "#FFD700",
+              fontWeight: "bold",
+              letterSpacing: "1.2px",
+              marginLeft: "10px",
+            }}>Ferra</p> <p style={{
+              color: "white",
+              fontWeight: "bold",
+              letterSpacing: "1.2px",
+            }}>Delivery</p>
+        </div>
         <p className={styles.deliveryFast}>
           {deliveryMan}
           Entrega rapida garantida!

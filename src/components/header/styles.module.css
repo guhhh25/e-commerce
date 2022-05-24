@@ -213,6 +213,10 @@
       
     }
   
+    .cart{
+      margin-left: 10px;
+     }
+
     .list li {
       font-size: 14px;
     }
@@ -242,8 +246,10 @@
   
     .phone span {
       font-size: 14px;
+      
     }
-  
+    
+    
     
   }
   
