@@ -5,11 +5,24 @@ import Image from "next/image";
 import { google } from "./../../icons/logos";
 import { apple } from "./../../icons/logos";
 import {logo} from './../../icons/logos'
+import { useEffect } from "react";
+import axios from "axios";
 
 
 
 
-export default function MainContent() {
+export default function MainContent() { 
+
+
+  async function getItems(){
+    await axios.get('http://localhost:3001/food').then((res) =>{
+      console.log(res.data)
+    })
+  }
+
+  getItems()
+
+
   return (
     <div className={styles.mainContent}>
       <div className={styles.mainTitle}>
