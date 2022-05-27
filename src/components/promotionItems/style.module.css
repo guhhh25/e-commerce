@@ -13,3 +13,11 @@
     width: 100%;
 
 }
+
+.container h2{
+    font-size: 40px;
+    text-decoration: #dbd52e underline dotted;
+  text-decoration-skip:ink;
+  opacity:.9;
+  padding: 30px 0px;
+}
